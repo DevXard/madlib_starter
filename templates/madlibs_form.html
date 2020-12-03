@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+    {% block form %}
+        <form action="/story">
+            <label for="place">Place</label>
+            <input id="place" required type="text" name="get_place">
+            <label for="noun">Noun</label>
+            <input id="noun" required type="text" name="get_noun">
+            <label for="verb">Verb</label>
+            <input id="verb" required type="text" name="get_verb">
+            <label for="adjective">Adjective</label>
+            <input id="adjective" required type="text" name="get_adjective">
+            <label for="plural_noun">Plural Noun</label>
+            <input id="plural_noun" required type="text" name="get_plural_noun">
+            <button>Submit</button>
+        </form>
+    {% endblock %}

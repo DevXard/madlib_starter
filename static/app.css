@@ -1,0 +1,26 @@
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: box;
+  }
+
+body{
+    background-color: rgb(220, 201, 176);
+}
+
+h1, h3, a, p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+form{
+    display: block;
+    position: relative;
+    left: 39%;
+    
+}
